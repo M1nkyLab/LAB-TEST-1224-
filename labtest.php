@@ -153,7 +153,7 @@
     if ($notraveller > 4) {
         echo "<p>Discount (10% off for groups of 5+): $" . number_format($totalCost * 0.1, 2) . "</p>";
     }
-    echo "<p>Total Estimated Cost: $" . number_format($totalCost, 2) . "</p>";
+    echo "<p>Total Cost: $" . number_format($totalCost, 2) . "</p>";
 }
 
 ?>
